@@ -4,9 +4,7 @@
         let result = document.getElementById("result");
 
         enterBtn.addEventListener("click", function () {
-            // Change the text of the paragraph
-            paragraph.textContent = "Entered Metaverse";
-
-            // Display the updated text in the h1 tag
-            result.textContent = paragraph.textContent;
+            // Set the text of the h1 element to "Entered Metaverse"
+			paragraph.style.display ="none";
+            result.textContent = "Entered Metaverse";
         });
